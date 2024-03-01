@@ -1,7 +1,7 @@
 from flask import request
 from flask_socketio import emit
 
-from .extensions import socketio
+from extensions import socketio
 
 users = {}
 
