@@ -1,6 +1,7 @@
-# from chatapp.app import create_app 
-# from chatapp.extensions import socketio
+from app import create_app 
+from extensions import socketio
 
-# app = create_app()
+app = create_app()
 
-# socketio.run(app)
+if __name__ == "__main__":      
+    socketio.run(app)
