@@ -13,3 +13,8 @@ def create_app():
     socketio.init_app(app)
 
     return app
+
+
+app = create_app()
+
+socketio.run(app)
